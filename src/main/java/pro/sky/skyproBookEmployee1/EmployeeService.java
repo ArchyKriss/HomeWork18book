@@ -6,7 +6,7 @@ import java.util.Map;
 
 @Service
 public class EmployeeService {
-    private final Map<String, Employee> employees;
+    private final Map<String,Employee> employees;
     private static final int MAX_IMPLOYEES = 100;
 
     public EmployeeService(Map<String, Employee> employees) {
